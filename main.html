@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>dentaku</title>
+    <link rel = "stylesheet" href="style.css">
+ 
+ </head>
+<body>
+     <script src = "main.js"></script>
+   <div class="display">
+     <input id ="result" type = "text" size ="20" style = "width:208px"/>
+   </div>
+
+    <div>
+     <input type = "button" value = "7" onclick="disp(7)"/> 
+     <input type = "button" value = "8" onclick ="disp(8)"/> 
+     <input type = "button" value = "9" onclick ="disp(9)"/> 
+     <input type = "button" value = "+" onclick ="operator(this)"/>
+   </div>
+
+   <div>
+     <input type = "button" value = "4" onclick ="disp(4)"/>
+     <input type = "button" value = "5" onclick ="disp(5)"/>
+     <input type = "button" value = "6" onclick ="disp(6)"/>
+     <input type = "button" value = "-" onclick ="operator(this)"/>
+  </div>
+
+  <div> 
+     <input type = "button" value = "1" onclick ="disp(1)"/>
+     <input type = "button" value = "2" onclick ="disp(2)"/>
+     <input type = "button" value = "3" onclick ="disp(3)"/>
+     <input type = "button" value = "*" onclick ="operator(this)"/>
+  </div>
+
+
+  <div>
+     <input type = "button" value = "0" onclick ="disp(0)"/>
+     <input type = "button" value = "00" onclick ="disp('00')"/>
+     <input type = "button" value = "." onclick ="operator(this)"/>
+     <input type = "button" value = "/" onclick ="operator(this)"/>
+  </div>
+  
+  <div >
+     <input type="button" value="AC" onclick="clear()"/> 
+     <input type="button" value="=" onclick="enter()"/> 
+  </div>
+ </body>
+ </html>
+ 
