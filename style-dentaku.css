@@ -1,0 +1,18 @@
+input {
+    width: 50px;
+    height: 50px;
+}
+
+textbox{
+    width: 200px;
+    height: 50px;
+}
+
+.display{
+    width: 208px;
+    text-align: right;
+}
+
+.disp{
+    width: 106px;
+}
